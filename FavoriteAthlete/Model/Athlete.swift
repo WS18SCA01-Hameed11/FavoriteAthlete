@@ -19,10 +19,10 @@ struct Athlete {
         if name.isEmpty || age.isEmpty || league.isEmpty || team.isEmpty {
             return nil;
         }
-        self.name = name;
-        self.age = age;
-        self.league = league;
-        self.team = team;
+        self.name = name
+        self.age = age
+        self.league = league
+        self.team = team
     }
     
     //Add a computed property description of type String that uses the four properties to return a phrase describing the athlete, as in the following
